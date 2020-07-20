@@ -1,0 +1,203 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+body, html {
+	font-family: 'Roboto Slab';
+	font-size: 10px;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#side {
+	background: url(img/sky.jpg) no-repeat;
+	width: 25%;
+	height: 100%;
+	position: fixed;
+}
+
+.logo {
+	display: block;
+	text-indent: -9999px;
+	background: url(img/logo.png) no-repeat;
+	position: absolute;
+	top: 2em;
+	left: 2em;
+	width: 5em;
+	height: 5em;
+}
+
+.logo a {
+	display: block;
+}
+
+#side h1 {
+	font-weight: 300;
+	font-size: 3em;
+	color: #fff;
+	position: absolute;
+	left: 7%;
+	top: 80%;
+}
+
+#side h3 {
+	font-weight: 300;
+	font-size: 1.9em;
+	color: #fff;
+	position: absolute;
+	left: 7%;
+	top: 88%;
+}
+
+section {
+	position: absolute;
+	left: 27%;
+	padding: 5em;
+	width: 63%;
+}
+
+.featured {
+	width: 100%;
+	height: 150px;
+	margin-top: -2em;
+	margin-bottom: 6em;
+}
+
+.featured span {
+	font-weight: 100;
+	font-size: 1.8em;
+}
+
+#title {
+	font-weight: 400;
+	font-size: 2.8em;
+	margin: -0.4em;
+}
+
+#homeText {
+	font-weight: 300;
+	font-size: 1.8em;
+	color: #4e4e4e;
+}
+
+.thumb {
+	display: block;
+	float: left;
+	text-indent: -9999px;
+	width: 120px;
+	height: 120px;
+	margin-right: 3em;
+}
+
+article {
+	margin-top: 3em;
+	margin-bottom: 10em;
+}
+
+article a {
+	text-decoration: none;
+	color: black;
+}
+.recent {
+	width: 100%;
+	height: 30px;
+	margin-top: 4em;
+	margin-bottom: -2em;	
+}
+
+.recent span {
+	font-weight: 100;
+	font-size: 1.8em;
+}
+
+.one .thumb {
+	background: url(img/iphone.jpg) no-repeat;
+}
+
+.two .thumb {
+	background: url(img/12-days.jpg) no-repeat;
+}
+
+.three .thumb {
+	background: url(img/iphone-5s.png) no-repeat;
+}
+
+.four .thumb {
+	background: url(img/scanner.png) no-repeat;
+}
+
+.five .thumb {
+	background: url(img/photos.png) no-repeat;
+}
+
+.six .thumb {
+	background-image: url(img/wallpapers.png);
+}
+
+.seven .thumb {
+	background-image: url(img/ios-6.png);
+}
+
+.eight .thumb {
+	background-image: url(img/apple-maps.png);
+}
+
+.nine .thumb {
+	background-image: url(img/ipod-touch.png);
+}
+
+.ten .thumb {
+	background-image: url(img/youtube.png);
+}
+
+.eleven .thumb {
+	background-image: url(img/iphone-5.png);
+}
+
+.eleven {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#logo_home {
+	position: fixed;
+	text-indent: -9999px;
+	background: url(img/logo.png) no-repeat;
+	top: 3em;
+	left: 2em;
+	height: 5em;
+	width: 5em;
+}
+
+header {
+	height: 350px;
+	width: 100%;
+}
+
+#headerone {
+	background: url(img/iphone-5c.jpg);
+}
+
+#headertwo {
+	background: url(img/app-store.png) no-repeat center top;
+}
+
+#headerthree {
+	background: url(img/iphone-5s.jpg) center;
+}
+
+.content {
+	max-width: 70%;
+	margin: auto;
+}
+
+.content h2 {
+	font-size: 3.8em;
+	text-align: center;
+	font-weight: 400;
+}
+
+.content p {
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 1.7em;
+}
